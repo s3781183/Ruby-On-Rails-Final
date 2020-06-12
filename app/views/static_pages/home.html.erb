@@ -1,0 +1,17 @@
+<div class="center jumbotron">
+<div style="text-align:center">
+<h1>Clock+</h1>
+
+
+<h5>Melbourne</h5>
+
+  <%= Time.current %>
+<h5>Sri Jayawardenepura</h5>
+    <%= Time.use_zone('Sri Jayawardenepura') { Time.current }%>
+
+  <h5>Hong Kong</h5>
+    <%= Time.use_zone('Sapporo') { Time.current }%>
+</div>
+  
+
+

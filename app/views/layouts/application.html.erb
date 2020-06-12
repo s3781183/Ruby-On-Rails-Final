@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=yield(:title)%>| RAD Final Project</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+  <%= render 'layouts/header' %>
+  <br><br>
+  <div class="spacer">
+  <%flash.each do|message_type,message|%>
+    <%=content_tag(:div, message, class:"alert alert-#{message_type}")%>      
+    <%end%>
+    <%= yield %>
+  </body>
+  </div>
+  <%= render 'layouts/footer' %>
+
+</html>
+
