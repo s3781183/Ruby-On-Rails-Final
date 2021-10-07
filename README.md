@@ -1,3 +1,7 @@
+<h1> Task : </h1> Implement a prototype of worldclock, called “Clock+”,which supports multiple time zones.
+
+This was completed as part of a 12 hour task, as a final submission for the course. 
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
