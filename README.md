@@ -1,4 +1,4 @@
-<h1> Task : </h1> Implement a prototype of worldclock, called “Clock+”,which supports multiple time zones.
+<h2> Task :Implement a prototype of worldclock, called “Clock+”,which supports multiple time zones.  </h2> 
 
 This was completed as part of a 12 hour task, as a final submission for the course. 
 
